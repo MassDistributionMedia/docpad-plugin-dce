@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "node app",
-    "postinstall": "scripts/install.js"
+    "postinstall" : "bin/postinstall.sh"
   },
   "author": "Chad Auld <chadauld@gmail.com>",
   "repository": {
