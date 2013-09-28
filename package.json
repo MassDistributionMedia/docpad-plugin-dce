@@ -4,7 +4,7 @@
   "version": "0.9.2",
   "scripts": {
     "start": "node app",
-    "postinstall": "scripts\install.js"
+    "postinstall": "scripts/install.js"
   },
   "author": {
     "name": "Chad Auld",
