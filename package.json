@@ -1,18 +1,35 @@
 {
   "name": "docpad-plugin-dce",
   "description": "A simple WYSIWYG style editor interface for DocPad Collections. Allows creating and editing of DocPad collections from the browser.",
-  "version": "0.9.2",
+  "version": "2.9.2",
+  "homepage": "http://github.com/cauld/docpad-plugin-dce.git",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "cms", "admin", "cms-admin", "WYSIWYG"
+  ],
   "scripts": {
     "start": "node app",
     "postinstall": "scripts/install.js"
   },
-  "author": {
-    "name": "Chad Auld",
-    "email": "chadauld@gmail.com"
+  "author": "Chad Auld <chadauld@gmail.com>"
   },
   "repository": {
     "type": "git",
     "url": "http://github.com/cauld/docpad-plugin-dce.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cauld/docpad-plugin-dce.git/issues"
+  },
+  "maintainers": [  
+    "Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
+  ],
+  "contributors": [
+    "Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
+  ],
+  "engines": {
+    "node": ">=0.8.x",
+    "docpad": "6.x"
   },
   "dependencies": {
     "express": "3.x",
