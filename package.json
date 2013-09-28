@@ -12,8 +12,7 @@
     "start": "node app",
     "postinstall": "scripts/install.js"
   },
-  "author": "Chad Auld <chadauld@gmail.com>"
-  },
+  "author": "Chad Auld <chadauld@gmail.com>",
   "repository": {
     "type": "git",
     "url": "http://github.com/cauld/docpad-plugin-dce.git"
